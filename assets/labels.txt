@@ -1,2 +1,4 @@
-0 Masker
-1 No Masker
+0 Cocci
+1 NCD
+2 Salmo
+3 Healthy

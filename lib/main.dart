@@ -10,7 +10,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Masker Detection',
+      title: 'Tubes',
       home: HomePage(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Flutter Masker Detection',
+          'Tubes',
         ),
       ),
       body: isLoading
@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
 
   Future loadModel() async {
     await Tflite.loadModel(
-      model: 'assets/model_unquant.tflite',
+      model: 'assets/disease_model.tflite',
       labels: 'assets/labels.txt',
     );
   }

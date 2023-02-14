@@ -1,4 +1,4 @@
-name: flutter_masker_detection
+name: tubes_ml
 description: Flutter masker detection app with Tensorflow Lite
 
 # The following line prevents the package from being accidentally published to

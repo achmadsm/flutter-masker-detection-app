@@ -1,4 +1,4 @@
-# flutter_masker_detection
+# tubes_ml
 
 Flutter masker detection app with Tensorflow Lite
 
